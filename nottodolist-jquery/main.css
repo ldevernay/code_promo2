@@ -1,0 +1,8 @@
+.checkbox-line-through {
+  text-decoration: line-through;
+}
+
+.todo-item {
+  cursor: grab;
+  display: table;
+}
