@@ -1,0 +1,11 @@
+
+function maxEtMin(string1){
+  var array1= string1.split(" ")
+  console.log(array1);
+ var max = Math.max (...array1);
+ var min = Math.min (...array1);
+ console.log(max + " " + min);
+  
+  
+}
+maxEtMin("1 2 3 8 9 11 6 -4 2 -4 33")

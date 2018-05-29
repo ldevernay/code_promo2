@@ -10,8 +10,7 @@ $(document).ready(function() {
         .closest('div')
         .remove();
     });
-    current_todo
-      .click(function() {
+    current_todo.click(function() {
         $(this).toggleClass('checkbox-line-through');
       })
       .append(delete_button);
