@@ -1,4 +1,4 @@
-function pet (Hy) {console.log([Hy,15+9*(Hy>=2)+4*(Hy-2)*(Hy>=2),15+9*(Hy>=2)+5*(Hy-2)*(Hy>=2)])}
+function pet (Hy) {return([Hy,15+9*(Hy>=2)+4*(Hy-2)*(Hy>=2),15+9*(Hy>=2)+5*(Hy-2)*(Hy>=2)])}
 
 /* 
 
