@@ -1,5 +1,5 @@
 // version avec les booléens qui remplacent les if
-function toHuman (age,div) {return((age>=0 && age<=15)*age/15+(age>15 && age<=24)*(age/9+1)+(age>24)*((age-24)/div+2))}
+function toHuman (age,div) {return((age>=0 && age<=15)*age/15+(age>15 && age<=24)*((age-15)/9+1)+(age>24)*((age-24)/div+2))}
 
 // version avec les if
 function toHuman (age,div) {
