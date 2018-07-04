@@ -1,6 +1,15 @@
 /*A partir d'un message chiffré, comment deviner le chiffrement et le message d'origine?*/
 
+// Même version que plus bas, mais avec un ternary operator à la place du if else .
 
+
+/*function caesar (message, offset) {
+  let alpha="abcdefghijklmnopqrstuvwxyz".split("");
+  let arrMsg = message.toLowerCase().split('');
+  return (arrMsg.map(function(x) {
+    return !alpha.includes(x) ? x : alpha[(alpha.indexOf(x) + offset)%26]
+  })).join("");
+} */
 
 
 function caesar (message, offset) {
