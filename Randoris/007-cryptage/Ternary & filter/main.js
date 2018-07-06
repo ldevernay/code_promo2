@@ -14,3 +14,15 @@ function decrypter (text,n) {
   return n>0 ? (n--, decrypter(tempo,n)) : text }
 
 decrypter(" ionaniifdiRenr nf",3);
+
+
+/* Version un peu nettoyée 
+
+function decrypter (text,n) {
+  let start = text.split("").filter((x,i)=> i<text.length/2);
+  let end = text.split("").filter((x,i)=> i>=text.length/2);
+  let tempo = start.map((x,i) => end[i]+x).join("");
+  tempo = text.length%2 != 0 ? tempo+end[end.length-1] : tempo
+  return n>0 ? (n--, decrypter(tempo,n)) : text }
+
+*/
