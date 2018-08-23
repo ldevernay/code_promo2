@@ -23,7 +23,7 @@ function raindrops($n) {
 }
 
 
-raindrops(12);
+raindrops(8);
 
 
 
@@ -48,4 +48,4 @@ function raindrop($n) {
 }
 
 
-raindrop(8);
+// raindrop(8);
