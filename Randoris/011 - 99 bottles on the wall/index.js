@@ -1,8 +1,8 @@
 class BeerSong {
   verse(number){
     if(number>1){
-    console.log(`${number} bottles of beer on the wall,\n ${number} bottles of beer. Take one down and pass it around,
-     ${number-1} bottles of beer on the wall.\n`)
+      console.log(`${number} bottles of beer on the wall,\n ${number} bottles of beer. Take one down and pass it around,
+       ${number-1} bottles of beer on the wall.\n`)
     }
     else if(number==1){
       console.log(`${number} bottle of beer on the wall, ${number} bottle of beer.\n Take it down and pass it around, no more bottles of beer on the wall.\n`)
@@ -17,5 +17,5 @@ class BeerSong {
     }
   }
 }
-song=new BeerSong();
+song=new BeerSong()
 song.sing(8)
